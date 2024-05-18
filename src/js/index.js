@@ -6,7 +6,7 @@ const searchForm = document.querySelector('form#search-form');
 const inputData = searchForm.elements['searchQuery'];
 const resultsGallery = document.querySelector('.gallery');
 const loadMore = document.querySelector('.load-more');
-// const submit = document.querySelector('form#search-form button[type=submit]');
+
 let searchQuery = inputData.value;
 
 searchQuery = '';
@@ -81,7 +81,7 @@ function galleryMarkup(photos) {
 
 loadMore.addEventListener('click', () => {
   pageNum++;
-  // searchQuery = event.currentTarget.elements.searchQuery.value;
+
   searchImages(searchQuery, pageNum, perPage).then(photos => {
     let totalpageNum = photos.totalHits / perPage;
     console.log(totalpageNum);
