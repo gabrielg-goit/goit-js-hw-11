@@ -29,11 +29,15 @@ html {
 .search-form button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #d94dc4;
+  background-color: #e06acf;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #9d058c;
 }
 
 .gallery {
