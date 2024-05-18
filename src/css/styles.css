@@ -16,7 +16,7 @@ html {
   padding: 10px;
   font-size: 16px;
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   background-color: #4de6f4c0;
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -29,10 +29,10 @@ html {
 .search-form button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #4caf50;
+  background-color: #d94dc4;
   color: white;
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -78,14 +78,14 @@ html {
   margin: 20px auto;
   padding: 10px 30px;
   font-size: 16px;
-  background-color: #19c21e;
+  background-color: #4e8cce;
   color: white;
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .load-more:hover {
-  background-color: #45a049;
+  background-color: #3953c7;
 }
