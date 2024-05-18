@@ -36,10 +36,6 @@ html {
   cursor: pointer;
 }
 
-.search-form button:hover {
-  background-color: #9d058c;
-}
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
